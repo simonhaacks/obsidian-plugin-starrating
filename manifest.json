@@ -1,0 +1,10 @@
+{
+  "id": "star-rating",
+  "name": "Star Rating",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Add interactive 5-star ratings to your notes with dataview integration",
+  "author": "Simon Haacks",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
