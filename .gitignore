@@ -3,15 +3,32 @@ node_modules/
 npm-debug.log*
 package-lock.json
 
-# Build outputs
-main.js
+# Build outputs  
 main.js.map
 *.tsbuildinfo
+
+# Development files (keep these local only)
+dev-helper.sh
+install-to-vault.sh
+create-dist.sh
+quick-update.sh
+generate-daily-notes.sh
+generate-notes.js
+
+# Documentation files (belong in Obsidian vault, not plugin repo)
+DATAVIEW_REPORTS.md
+GITHUB_SETUP.md
+QUICK_INSTALL.md
+SETUP_CHECKLIST.md
+SETUP_DAILY_NOTES.md
+SETUP_GUIDE.md
+*Dashboard*.md
+sample-notes/
+dist/
 
 # Development
 .env
 .env.local
-dist/
 
 # IDE
 .vscode/
@@ -38,9 +55,3 @@ coverage/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
