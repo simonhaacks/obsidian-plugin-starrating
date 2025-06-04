@@ -88,9 +88,7 @@ export default class StarRatingPlugin extends Plugin {
         const textNodes: Text[] = [];
         const walker = document.createTreeWalker(
             element,
-            NodeFilter.SHOW_TEXT,
-            null,
-            false
+            NodeFilter.SHOW_TEXT
         );
 
         let node;

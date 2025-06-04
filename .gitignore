@@ -7,23 +7,10 @@ package-lock.json
 main.js.map
 *.tsbuildinfo
 
-# Development files (keep these local only)
-dev-helper.sh
-install-to-vault.sh
-create-dist.sh
-quick-update.sh
-generate-daily-notes.sh
-generate-notes.js
+# Development directory (all dev/test files)
+development/
 
-# Documentation files (belong in Obsidian vault, not plugin repo)
-DATAVIEW_REPORTS.md
-GITHUB_SETUP.md
-QUICK_INSTALL.md
-SETUP_CHECKLIST.md
-SETUP_DAILY_NOTES.md
-SETUP_GUIDE.md
-*Dashboard*.md
-sample-notes/
+# Distribution files (if any)
 dist/
 
 # Development

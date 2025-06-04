@@ -80,13 +80,7 @@ export function createStarRatingEditorExtension(
             const mappedDecorations = decorations.map(tr.changes);
             
             updateTimeout = window.setTimeout(() => {
-                // Trigger a new transaction with updated decorations
-                const view = tr.state.field(EditorView.editorAttributes, false);
-                if (view) {
-                    const newDecorations = buildStarDecorations(tr.state.doc, parser, renderer, controller);
-                    // This would need the view instance to dispatch the effect
-                    // For now, we'll use a simpler approach
-                }
+                // The actual update will be handled by the ViewPlugin
                 updateTimeout = null;
             }, DEBOUNCE_DELAY);
 
